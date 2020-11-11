@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-Elite.ActorsKata.Generator-38C362B6-4941-4D71-B8F1-C9CEB842D42B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Proto.Actor" Version="0.9.0" />
+    <PackageReference Include="Proto.Router" Version="0.2.0" />
+  </ItemGroup>
+</Project>
